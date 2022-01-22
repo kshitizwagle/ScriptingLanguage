@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sum, Product, Difference, Quotient, Remainder</title>
+</head>
+
+<body>
+    <form id="form" action="#" method="post">
+        <div>
+            <label>Number 1:
+                <input type="number" id="number1">
+            </label>
+        </div>
+        <div>
+            <label>Number 2:
+                <input type="number" id="number2">
+            </label>
+        </div>
+        <div>
+            <button id="submit-button" type="button">Submit</button>
+        </div>
+        <div id="output">
+            <div>The sum is &nbsp<a id="sum"></a></div>
+            <div>The difference is &nbsp<a id="difference"></a></div>
+            <div>The product is &nbsp<a id="product"></a></div>
+            <div>The quotient is &nbsp<a id="quotient"></a></div>
+            <div>The remainder is &nbsp<a id="remainder"></a></div>
+        </div>
+    </form>
+</body>
+<script type="text/javascript">
+    document.getElementById('output').style.display = "none";
+
+    function data() {
+        const x = parseInt(document.getElementById('number1').value);
+        const y = parseInt(document.getElementById('number2').value);
+        document.getElementById('sum').innerHTML = x + y;
+        document.getElementById('difference').innerHTML = x - y;
+        document.getElementById('product').innerHTML = x * y;
+        document.getElementById('quotient').innerHTML = parseInt(x / y);
+        document.getElementById('remainder').innerHTML = x % y;
+        document.getElementById('output').style.display = "block";
+    }
+
+    document.getElementById('submit-button').addEventListener('click', data);
+
+
+</script>
+
+</html>
