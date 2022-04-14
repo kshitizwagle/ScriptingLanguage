@@ -23,6 +23,7 @@ if (!preg_match("/^[a-zA-Z0-9_\-\.]+@[a-zA-Z0-9\-]+\.[a-zA-Z0-9\-\.]+$/", $email
     echo "Invalid email.<br>";
     $valid = false;
 }
+
 if($valid) {
     echo "Form is valid.<br>";
     echo "Name: $name<br>";
