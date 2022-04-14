@@ -6,21 +6,21 @@
 </head>
 
 <body>
-    <form>
+    <form action="action.php" method="post">
         <p class="name">
             <label>Name</label>
-            <input type="text" id="name">
+            <input name="name" type="text">
         </p>
         <p class="phone">
             <label>Phone Number</label>
-            <input type="number" id="phone">
+            <input name="phone" type="number">
         </p>
         <p class="email">
             <label>Email</label>
-            <input type="email" id="email">
+            <input name="email" type="email">
         </p>
         <div class="submit-button">
-            <button type="button" id="submit-button">Submit</button>
+            <button type="submit">Submit</button>
         </div>
     </form>
 </body>
