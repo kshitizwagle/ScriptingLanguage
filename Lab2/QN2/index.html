@@ -1,16 +1,7 @@
-<!DOCTYPE html>
 <html>
 
-<head>
-    <title></title>
-    <meta charset="utf-8">
-    <meta viewport="width=device-width, initial-scale=1">
-</head>
-
 <body>
-    <button type="button" id="git">Github</button>
-    <button type="button" id="stack">StackOverflow</button>
-    <button type="button" id="w3">W3Schools</button>
+    <a id="git">Github</a>
 </body>
 <script type="text/javascript">
     document.getElementById("git").addEventListener("click", function () {
@@ -18,19 +9,6 @@
             window.open("https://www.github.com");
         }
     });
-
-    document.getElementById("stack").addEventListener("click", function () {
-        if (confirm("Are you sure you want to go to StackOverflow?")) {
-            window.open("https://www.stackoverflow.com");
-        }
-    });
-
-    document.getElementById("w3").addEventListener("click", function () {
-        if (confirm("Are you sure you want to go to W3Schools?")) {
-            window.open("https://www.w3schools.com");;
-        }
-    });
-
 </script>
 
 </html>

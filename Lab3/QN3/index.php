@@ -7,23 +7,22 @@
 
 <body>
     <form action="action.php" method="post">
-        <p class="name">
+        <p>
             <label>Name</label>
             <input name="name" type="text">
         </p>
-        <p class="phone">
+        <p>
             <label>Phone Number</label>
             <input name="phone" type="number">
         </p>
-        <p class="email">
+        <p>
             <label>Email</label>
             <input name="email" type="email">
         </p>
-        <div class="submit-button">
+        <div>
             <button type="submit">Submit</button>
         </div>
     </form>
 </body>
-<script type="text/javascript" src="script.js"></script>
 
 </html>

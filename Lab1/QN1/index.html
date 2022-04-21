@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
     <title>Calculator</title>
 </head>
 
 <body>
-    <form id="form" action="#" method="post">
+    <form>
         <div>
             <label>Number 1:
                 <input type="number" id="number1">
@@ -18,7 +18,7 @@
             </label>
         </div>
         <div>
-            <button id="submit-button" type="button">Submit</button>
+            <button id="submit" type="button">Submit</button>
         </div>
         <div id="output">
             <div>The sum is &nbsp<a id="sum"></a></div>
@@ -43,7 +43,7 @@
         document.getElementById('output').style.display = "block";
     }
 
-    document.getElementById('submit-button').addEventListener('click', data);
+    document.getElementById('submit').addEventListener('click', data);
 </script>
 
 </html>
