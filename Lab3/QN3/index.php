@@ -2,7 +2,24 @@
 
 <head>
     <title>Registration Form</title>
-    <link rel="stylesheet" href="style.css">
+    <style>
+        form {
+            display: table;
+        }
+
+        p {
+            display: table-row;
+        }
+
+        label {
+            display: table-cell;
+        }
+
+        input {
+            display: table-cell;
+            margin-left: 10px;
+        }
+    </style>
 </head>
 
 <body>

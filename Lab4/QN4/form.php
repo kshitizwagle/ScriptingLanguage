@@ -1,20 +1,13 @@
 <html>
-
-<head>
-    <title>delete</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
 <body>
     <form action="delete.php" method="post">
-        <p class="id">
+        <p>
             <label>Id</label>
             <input type="number" name="id">
         </p>
-        <div class="submit-button">
+        <div>
             <button type="submit">Submit</button>
         </div>
     </form>
 </body>
-
 </html>

@@ -4,10 +4,9 @@ form {
 p {
     display: table-row;
 }
-label {
+label, input {
     display: table-cell;
 }
 input {
-    display: table-cell;
     margin-left: 10px;
 }

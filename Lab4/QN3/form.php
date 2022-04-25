@@ -7,23 +7,23 @@
 
 <body>
     <form action="update.php" method="post">
-        <p class="id">
+        <p>
             <label>Id</label>
             <input type="number" name="id">
         </p>
-        <p class="name">
+        <p>
             <label>Name</label>
             <input type="text" name="name">
         </p>
-        <p class="phone">
+        <p>
             <label>Address</label>
             <input type="text" name="address">
         </p>
-        <p class="email">
+        <p>
             <label>Email</label>
             <input type="email" name="email">
         </p>
-        <div class="submit-button">
+        <div>
             <button type="submit">Submit</button>
         </div>
     </form>

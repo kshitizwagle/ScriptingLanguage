@@ -3,10 +3,9 @@
 $name = $_REQUEST['name'];
 $address = $_REQUEST['address'];
 $email = $_REQUEST['email'];
-echo $name."<br>".$address."<br>".$email."<br>";
 
-$conn = new mysqli('localhost', 'test', 'test', 'school')
-    or die("Couldn't connect to the database.");
+$conn = new mysqli('localhost', 'test', 'test', 'school') or
+    die("Couldn't connect to the database.");
 
 $sql = "CREATE TABLE IF NOT EXISTS Lab4(
         id int(3) NOT NULL AUTO_INCREMENT PRIMARY KEY,

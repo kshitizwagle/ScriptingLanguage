@@ -9,12 +9,12 @@ if (empty($name) && empty($phone) && empty($email)) {
     $valid = false;
 }
 
-if (!preg_match("/^[a-zA-Z ]*$/", $name) and strlen($name) < 10) {
+if (!preg_match("/^[a-zA-Z ]*$/", $name)) {
     echo "Invalid name.<br>";
     $valid = false;
 }
 
-if (!preg_match("/^[0-9]{10}$/", $phone) and strlen($phone) < 10) {
+if (!preg_match("/^[0-9]{10}$/", $phone)) {
     echo "Invalid phone number.<br>";
     $valid = false;
 }
