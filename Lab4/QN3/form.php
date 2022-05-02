@@ -9,7 +9,7 @@
     <form action="update.php" method="post">
         <p>
             <label>Id</label>
-            <input type="number" name="id">
+            <input type="number" name="id"><br>
         </p>
         <p>
             <label>Name</label>

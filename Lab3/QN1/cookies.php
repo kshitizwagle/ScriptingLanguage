@@ -1,18 +1,18 @@
 <?php
 // set
-setcookie("language", "php", time() + 3600);
+setcookie("Drink", "Dr. Pepper");
 ?>
 <html>
 
 <body>
     <?php
-    echo "Cookie set<br>";
-    echo "You might need to reload to see value of cookie<br>";
     // get
-    if (isset($_COOKIE["language"])) {
-        echo "Language is " . $_COOKIE["language"];
+    if (isset($_COOKIE["Drink"])) {
+        echo "Cookie set<br>";
+        echo "Drink is " . $_COOKIE["Drink"];
     } else {
-        echo "Cookie is not set";
+        echo "Cookie is not set ";
+        echo "You might need to reload to see value of cookie";
     }
     ?>
 </body>

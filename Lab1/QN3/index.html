@@ -3,9 +3,10 @@
     <title>Arrays</title>
 </head>
 <script type="text/javascript">
-    let arr = ['a', 'b', 1, 9, 10, 'hello'];
-    arr.forEach((e) => console.log(e));
-    arr.push('world');
+    let arr = ['a', 'b'];
+    let arr1 = [1, 2];
+    arrP();
+    arr.push('c');
     const popped = arr.pop();
     const shifted = arr.shift(1);
     arr.push(shifted);
@@ -13,6 +14,10 @@
     arr.reverse();
     arr.sort();
     arr.splice(1, 5, 'JavaScript');
+    arrP();
+    function arrP(){
+        arr.forEach((e) => console.log(e));
+    }
 </script>
 
 </html>
